@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #444;
+}
+
+/* Center the header content */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #333;
+}
+
+/* Style the navigation */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 5px;
+    position: relative;
+}
+
+/* Create the underline effect */
+nav a::after {
+    text-decoration: none;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Animate the underline on hover */
+nav a:hover::after {
+    width: 100%;
+}
+
+nav a:hover {
+    cursor: pointer;
+}
