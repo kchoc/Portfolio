@@ -21,9 +21,9 @@ export class ProjectsComponent {
     },
     {
       id: 1,
-      name: 'Sample 2',
+      name: 'Portfolio',
       description: 'description',
-      url: '',
+      url: 'https://github.com/kchoc/portfolio',
       image: 'https://www.shutterstock.com/image-vector/sample-red-square-grunge-stamp-260nw-338250266.jpg'
     },
     {
